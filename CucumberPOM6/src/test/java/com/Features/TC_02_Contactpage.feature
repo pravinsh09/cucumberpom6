@@ -1,4 +1,4 @@
-Feature: Verify home page functionality
+Feature: Verify Contact page functionality
 
 
 @Contact
