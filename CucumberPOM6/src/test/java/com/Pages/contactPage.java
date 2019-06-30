@@ -16,6 +16,8 @@ public class contactPage extends BasePage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	
+	
 	@FindBy(xpath="//a[@class='item']//span[text()='Contacts']")
 	WebElement contactsLink;
 	
