@@ -5,7 +5,7 @@ Feature: Verify Contact page functionality
 Scenario:
 Given verify user open crm login page
 And I enter username as password
-|pravin.sh9@gmail.com| |  
+|pravin.sh9@gmail.com|Jaya*1234 |  
 And click on the contacts link
 Then verify user is on contact page
 
@@ -13,7 +13,7 @@ Then verify user is on contact page
 Scenario:
 Given verify user open crm login page
 And I enter username as password
-|pravin.sh9@gmail.com||  
+|pravin.sh9@gmail.com|Jaya*1234|  
 And click on the contacts link
 And verify user is on contact page
 And click on new button
@@ -22,7 +22,7 @@ And click on new button
 Scenario Outline:
 Given verify user open crm login page
 And I enter username as password
-|pravin.sh9@gmail.com|| 
+|pravin.sh9@gmail.com|Jaya*1234| 
  
 And click on the contacts link
 And verify user is on contact page
